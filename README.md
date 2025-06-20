@@ -26,5 +26,5 @@ This repo documents everything I learn — from HTML basics to complete frontend
 
 ## 🎯 GOAL
 
-Build a strong foundation in frontend development and document the process with consistency.
+Build a strong foundation in frontend and backend development and document the process with consistency.
 
