@@ -1,7 +1,7 @@
 # 🌐 PIXELS AND TAGS
 
 Welcome to my personal web development journey!  
-This repo documents everything I learn — from HTML basics to complete frontend projects and daily logs.
+This repo documents everything I learn — from HTML basics to complete frontend and backend based projects and daily logs.
 
 ---
 
