@@ -1,11 +1,10 @@
-# Day 010 – Started HTML
+# Day 10 – Completed knowing all bootstap components
 
 ## ✅ What I Did
-- Learned about basic tags
-- Created a new folder for HTML work
+- Though after finishing the project ,I felt something was missing.
+- so I cleared my doubts by going though it once again.
 
-## 💡 Thoughts
-HTML feels simple and interesting!
+
 
 ## 🔗 Related Work
-- [HTML/DAY 1](../HTML/DAY%201/)
+- [CSS/DAY 10](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/2)CSS/Bootstrap)
