@@ -7,13 +7,13 @@ This repo documents everything I learn — from HTML basics to complete frontend
 
 ## 📁 FOLDER STRUCTURE
 
-- **HTML/** — Practice HTML basics like tags, forms, tables, and structure  
-- **CSS/** — Styling web pages: layout, colors, fonts, transitions  
-- **JS/** — JavaScript fundamentals, DOM manipulation, and logic  
-- **JQuery/** — jQuery basics, selectors, effects, DOM manipulation shortcuts  
-- **Node.Js/** — Server-side development using Node.js and Express  
-- **PROJECTS/** — Mini and major web development projects  
-- **JOURNAL/** — Daily logs of progress and learning  
+- [HTML/](./HTML) — Practice HTML basics like tags, forms, tables, and structure  
+- [CSS/](./CSS) — Styling web pages: layout, colors, fonts, transitions  
+- [JS/](./JS) — JavaScript fundamentals, DOM manipulation, and logic  
+- [JQuery/](./JQuery) — jQuery basics, selectors, effects, DOM manipulation shortcuts  
+- [Node.Js/](./Node.Js) — Server-side development using Node.js and Express  
+- [PROJECTS/](./4%29PROJECTS) — Mini and major web development projects  
+- [JOURNAL/](./JOURNAL) — Daily logs of progress and learning  
 
 ---
 
