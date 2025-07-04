@@ -7,11 +7,13 @@ This repo documents everything I learn — from HTML basics to complete frontend
 
 ## 📁 FOLDER STRUCTURE
 
-- **[HTML/](HTML/)** — Practice HTML basics like tags, forms, tables, and structure  
-- **[CSS/](CSS/)** — Styling web pages: layout, colors, fonts, transitions  
-- **[JS/](JS/)** — JavaScript fundamentals, DOM manipulation, and logic  
-- **[PROJECTS/](PROJECTS/)** — Mini and major web development projects  
-- **[JOURNAL/](JOURNAL/)** — Daily logs of progress and learning
+- **HTML/** — Practice HTML basics like tags, forms, tables, and structure  
+- **CSS/** — Styling web pages: layout, colors, fonts, transitions  
+- **JS/** — JavaScript fundamentals, DOM manipulation, and logic  
+- **JQuery/** — jQuery basics, selectors, effects, DOM manipulation shortcuts  
+- **Node.Js/** — Server-side development using Node.js and Express  
+- **PROJECTS/** — Mini and major web development projects  
+- **JOURNAL/** — Daily logs of progress and learning  
 
 ---
 
@@ -20,11 +22,10 @@ This repo documents everything I learn — from HTML basics to complete frontend
 - VS Code  
 - Git & GitHub  
 - Chrome DevTools  
-- Live Server
+- Live Server  
 
 ---
 
 ## 🎯 GOAL
 
 Build a strong foundation in frontend and backend development and document the process with consistency.
-
