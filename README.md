@@ -7,12 +7,12 @@ This repo documents everything I learn — from HTML basics to complete frontend
 
 ## 📁 FOLDER STRUCTURE
 
-- [HTML/](./HTML) — Practice HTML basics like tags, forms, tables, and structure  
-- [CSS/](./CSS) — Styling web pages: layout, colors, fonts, transitions  
-- [JS/](./JS) — JavaScript fundamentals, DOM manipulation, and logic  
-- [JQuery/](./JQuery) — jQuery basics, selectors, effects, DOM manipulation shortcuts  
-- [Node.Js/](./Node.Js) — Server-side development using Node.js and Express  
-- [PROJECTS/](./4%29PROJECTS) — Mini and major web development projects  
+- [HTML/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/1)HTML) — Practice HTML basics like tags, forms, tables, and structure  
+- [CSS/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/2)CSS) — Styling web pages: layout, colors, fonts, transitions  
+- [JS/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/3)JS) — JavaScript fundamentals, DOM manipulation, and logic  
+- [JQuery/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/5)JQuery) — jQuery basics, selectors, effects, DOM manipulation shortcuts  
+- [Node.Js/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/6)Node.Js) — Server-side development using Node.js and Express  
+- [PROJECTS/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/4)PROJECTS) — Mini and major web development projects  
 - [JOURNAL/](./JOURNAL) — Daily logs of progress and learning  
 
 ---
