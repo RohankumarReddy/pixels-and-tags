@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: white;
+}
+.big{
+    color: crimson;
+    font-size: 3rem;
+}
+.margin{
+    margin: 50px;
+
+}
+*{
+    cursor: pointer;
+}
