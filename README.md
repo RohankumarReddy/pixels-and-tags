@@ -23,7 +23,8 @@ This repo documents everything I learn — from HTML basics to complete frontend
 - VS Code  
 - Git & GitHub  
 - Chrome DevTools  
-- Live Server  
+- CodeSandbox
+   
 
 ---
 
