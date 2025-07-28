@@ -11,7 +11,7 @@ This repo documents everything I learn — from HTML basics to complete frontend
 - [CSS/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/2%29CSS) — Styling web pages: layout, colors, fonts, transitions  
 - [JS/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/3%29JS) — JavaScript fundamentals, DOM manipulation, and logic  
 - [JQuery/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/5%29JQuery) — jQuery basics, selectors, effects, DOM manipulation shortcuts  
-- [Node.Js/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/6%29Node.Js) — Server-side development using Node.js and Express  
+- [backend/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/05-backend) — Server-side development using Node.js and Express,APIs,mongodb,postgress authN-authZ
 - [PROJECTS/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/4%29PROJECTS) — Mini and major web development projects  
 - [JOURNAL/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/JOURNAL) — Daily logs of progress and learning  
 
@@ -23,7 +23,8 @@ This repo documents everything I learn — from HTML basics to complete frontend
 - VS Code  
 - Git & GitHub  
 - Chrome DevTools  
-- Live Server  
+- CodeSandbox
+   
 
 ---
 
