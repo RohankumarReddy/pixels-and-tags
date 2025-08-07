@@ -19,6 +19,6 @@ A fun little dice game built using HTML, CSS, and JavaScript.
 
 The game is simple with a clean UI and dice animations. Here's the goal view:
 
-![Goal](./images/goal.png)
+![Goal](./goal.png)
 
 
