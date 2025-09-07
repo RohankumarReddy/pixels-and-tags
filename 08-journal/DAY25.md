@@ -2,9 +2,7 @@
 
 ## ✅ What I Did
 
--Finished understanding the basics of SQL and DBMS
+-Finished understanding the basics of SQL and DBMS.
 
--Understood concepts like creation/deletion of tables, adding values into them, altering, updating and joins
-
-
+-Understood concepts like creation/deletion of tables, adding values into them, altering, updating and joins.
 
