@@ -15,12 +15,12 @@
 -Remix icons and gradient images
 
 
-##  What it looks like
+##  What it looks like (PC and mobile view respectively)
 
-1.PC view 
-2.Mobile view
+Visit: https://thebigcompany.netlify.app/
 
- ![PC view](goal1.png) | ![Mobile view](goal2.png) 
+
+ ![PC view](goal1.png)  ![Mobile view](goal2.png) 
 
 
 
