@@ -17,9 +17,10 @@
 
 ##  What it looks like
 
+1.PC view 
+2.Mobile view
 
-
-| ![PC view](goal1.png) | ![Mobile view](goal2.png)  |
+ ![PC view](goal1.png) | ![Mobile view](goal2.png) 
 
 
 
