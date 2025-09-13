@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav1">
+      <i class="ri-government-fill"></i>
+      The Big Company
+    </div>
+    <div class="nav2">
+      <h4>Home</h4>
+      <h4>Courses</h4>
+      <h4>Cohort</h4>
+      <h4>Request Callback</h4>
+      <h4>Class Room</h4>
+      <i class="ri-notification-fill"></i>
+      <i class="ri-account-circle-2-line"></i>
+      <i class="ri-menu-line menu-icon"></i>
+    </div>
+  </nav>
+
+  <div class="mobile-menu">
+    <h4>Home</h4>
+    <h4>Courses</h4>
+    <h4>Cohort</h4>
+    <h4>Request Callback</h4>
+    <h4>Class Room</h4>
+  </div>
+
+  <main>
+    <section class="section1">
+      <div class="left">
+        <h1 class="stock">
+          The best stock market advices are here. No need to go elsewhere!
+        </h1>
+        <div class="tags">
+          <h4>Stock Investing</h4>
+          <h4>Technical Analysis</h4>
+          <h4>Day Trading</h4>
+          <h4>Algo Trading</h4>
+          <h4>IPOs & New Listings</h4>
+          <h4>And more...</h4>
+        </div>
+        <h3 class="price">
+          Price <span>₹7999</span> <span style="text-decoration: line-through;">₹15999</span> (+GST)
+        </h3>
+        <div class="btn">
+          <button>Buy now</button>
+          <button>View Course content</button>
+        </div>
+      </div>
+      <div class="right">
+        <img src="https://img-c.udemycdn.com/course/750x422/4584796_378d_4.jpg" alt="Course preview">
+        <div class="details">
+          <h4>Language: <span>English/Hindi</span></h4>
+          <h4>Mode: <span>Online </span></h4>    
+          <h4>Schedule: <span>Mon-Sat (8:30 PM)</span></h4>
+          <h4>Total Content: <span>170+ hours!</span></h4>
+          <h4>Support: <span>1-on-1 Mentorship </span></h4>
+          <h4>Access: <span>Lifetime</span></h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="section2">
+      <h1 class="gloss">Get Rich</h1>
+      <br>
+      <h2>With <span>Experts</span> At Your Back!</h2>
+    </section>
+
+    <section class="sec3">
+      Connect With US
+      <div class="sss">
+        <i class="ri-instagram-line"></i>
+        <i class="ri-twitter-x-line"></i>
+        <i class="ri-linkedin-box-line"></i>
+      </div>
+    </section>
+
+    <footer>
+      <h5>Copyright © 2025 The Big Company Pvt. Ltd.</h5>
+      <h5>All Rights Reserved</h5>
+    </footer>
+  </main>
+
+  <script>
+    const menuIcon = document.querySelector('.menu-icon');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    menuIcon.addEventListener('click', () => {
+      mobileMenu.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
