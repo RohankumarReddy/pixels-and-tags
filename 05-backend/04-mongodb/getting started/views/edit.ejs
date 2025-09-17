@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+<body>
+    <div class="w-full h-full bg-zinc-800 p-10 text-white">
+        <h1 class="ml-3 mb-5 text-2xl tracking-tighter">Edit <%= edit.name %></h1>
+
+        <form action="/edit/<%= edit._id %>" method="post">
+            <input class="px-5 py-3 bg-transparent border border-white rounded-lg m-2" type="text" name="name" placeholder="name" value="<%= edit.name %>">
+            <input class="px-5 py-3 bg-transparent border border-white rounded-lg m-2" type="text" name="email" placeholder="email" value="<%= edit.email %>">
+            <input class="px-5 py-3 bg-transparent border border-white rounded-lg m-2" type="text" name="image" placeholder="image" value="<%= edit.image %>">
+            <input class="m-3 p-2 bg-blue-700 text-white rounded" type="submit" value="Update">
+        </form>
+    </div>
+</body>
+</html>

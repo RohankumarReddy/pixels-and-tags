@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MongoDB+EJS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+
+</head>
+<body>
+    <div class="w-full h-full bg-zinc-800 p-10 text-white ">
+        <div class="nav">
+            <a class="m-4  text-blue-800" href="/read">Read Users</a>
+        </div>
+        <h1 class="ml-3 mb-5 text-2xl tracking-tighter ">New user</h1>
+        <form action="/create" method="post">
+            <input class="px-5 py-3 bg-transparent border-1 border-white rounded-lg" type="text" name="name" placeholder="name">
+                 <input class="px-5 py-3 bg-transparent border-1 border-white rounded-lg" type="text" name="email" placeholder="email">
+                    <input class="px-5 py-3 bg-transparent border-1 border-white rounded-lg" type="text" name="image" placeholder="image">
+                         <input class="m-3 p-2 bg-blue-700 text-white rounded" type="submit">
+
+                         
+        </form>
+    </div>
+
+</body>
+</html>
