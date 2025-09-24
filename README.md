@@ -19,16 +19,15 @@ This repo documents everything I learn — from HTML basics to complete frontend
 
 ---
 
-## 🛠️ TOOLS I’LL BE USING
+## 🛠️ TOOLS I USED TILL NOW!
 
-- VS Code  
-- Git & GitHub  
-- Chrome DevTools  
-- CodeSandbox
+- VS Code 
+- Git & GitHub — Version control and collaboration
+- Chrome DevTools — Debugging and inspecting web pages
+- CodeSandbox - For efficient learning
+- MongoDB & PostgreSQL — Databases for backend projects
+- Postman — API testing
+
    
 
----
 
-## 🎯 GOAL
-
-Build a strong foundation in frontend and backend development and document the process with consistency.
