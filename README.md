@@ -12,7 +12,7 @@ This repo documents everything I learn — from HTML basics to complete frontend
 - [JS/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/3%29JS) — JavaScript fundamentals, DOM manipulation, and logic  
 - [JQuery/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/5%29JQuery) — jQuery basics, selectors, effects, DOM manipulation shortcuts  
 - [Backend/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/05-backend) — Server-side development using Node.js and Express,APIs,mongodb,postgress authN-authZ
-- [React/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/06-react) — Covered concepts from basics to Components,Hooks and ended with a small project (clone of Google's Keeper)
+- [React/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/06-react) — Covered concepts from basics to Components,Hooks and ended with a small project (clone 			of Google's Keeper)
 - [PROJECTS/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/4%29PROJECTS) — Mini and major web development projects  
 - [JOURNAL/](https://github.com/RohankumarReddy/pixels-and-tags/tree/main/JOURNAL) — Daily logs of progress and learning  
 
