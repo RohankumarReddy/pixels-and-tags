@@ -22,9 +22,9 @@ This repo documents everything I learn — from HTML basics to complete frontend
 ## 🛠️ TOOLS I USED TILL NOW!
 
 - VS Code 
-- Git & GitHub — Version control and collaboration
+- Git & GitHub — Version control
 - Chrome DevTools — Debugging and inspecting web pages
-- CodeSandbox - For efficient learning
+- CodeSandbox - For efficient learning (Hate to download dependencies again and again)
 - MongoDB & PostgreSQL — Databases for backend projects
 - Postman — API testing
 
