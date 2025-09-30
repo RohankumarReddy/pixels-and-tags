@@ -1,0 +1,20 @@
+{
+  "name": "backend-brush-up",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cat-me": "^1.0.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.2",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10"
+  }
+}
