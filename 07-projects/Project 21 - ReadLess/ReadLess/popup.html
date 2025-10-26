@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Summariser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      min-width: 400px;
+      min-height: 500px;
+      padding: 20px;
+      font-family: sans-serif;
+      background: linear-gradient(135deg, #6b21a8, #4338ca, #000000);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      background-color: #1f2937;
+      color: white;
+      border: none;
+      font-size: 16px;
+      margin-bottom: 16px;
+      caret-color: transparent; 
+    }
+
+    .buttons-container {
+      display: flex;
+      width: 100%;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    button {
+      flex: 1;
+      padding: 10px;
+      border-radius: 10px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.2s;
+      font-size: 16px;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    #summarise {
+      background-color: #3b82f6;
+      color: white;
+    }
+
+    #copy-button {
+      background-color: #374151;
+      color: white;
+    }
+
+    #result {
+      width: 100%;
+      flex-grow: 1; 
+      background-color: #1f2937;
+      padding: 16px;
+      border-radius: 10px;
+      color: #d1d5db;
+      overflow: auto;
+      white-space: pre-wrap;
+      font-size: 15px;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>AI Summariser</h2>
+
+  <select id="summary-type">
+    <option value="brief">Brief</option>
+    <option value="detailed">Detailed</option>
+    <option value="bullets">Bullets</option>
+  </select>
+
+  <div class="buttons-container">
+    <button id="summarise">Summarise</button>
+    <button id="copy-button">Copy</button>
+  </div>
+
+  <pre id="result">Select a type and click summarise</pre>
+
+  <script src="popup.js"></script>
+</body>
+</html>

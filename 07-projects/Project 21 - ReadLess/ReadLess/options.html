@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Options</title>
+    <style>
+        body {
+            min-width: 350px;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 30px;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #111;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        label {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            padding: 8px 16px;
+            border-radius: 6px;
+            background-color: #2563eb;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1e40af;
+        }
+
+        .success-message {
+            color: #16a34a;
+            font-weight: bold;
+            font-size: 14px;
+            display: none;
+        }
+
+        p {
+            margin: 0;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <h1>AI Summary Settings</h1>
+    <div class="form-group">
+        <label for="api-key">Gemini API key</label>
+        <input type="text" id="api-key" placeholder="Enter the API key">
+        <p>Get your key from <a href="https://aistudio.google.com/" target="_blank">Google AI Studio</a></p>
+        <button id="save-button">Save settings</button>
+        <p id="success-message" class="success-message">Settings saved</p>
+    </div>
+    <script src="options.js"></script>
+</body>
+</html>
