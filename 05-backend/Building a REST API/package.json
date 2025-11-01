@@ -1,0 +1,15 @@
+{
+  "name": "building-a-rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nagaruru Rohankumar Reddy",
+  "license": "ISC",
+  "description": "Building a REST API using Express.js",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
