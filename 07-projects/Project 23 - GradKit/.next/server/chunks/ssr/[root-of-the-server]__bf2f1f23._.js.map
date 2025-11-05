@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///R:/NextJS/Big%20project%21/gradkit/app/page.js"],"sourcesContent":["import Image from \"next/image\";\nimport { Button } from \"@/components/ui/button\";\nexport default function Home() {\n  return (\n    <div>\n     <div className=\"dynamic-grid-background\"></div>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AACe,SAAS;IACtB,qBACE,8OAAC;kBACA,cAAA,8OAAC;YAAI,WAAU;;;;;;;;;;;AAGpB","debugId":null}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":["file:///R:/NextJS/Bigproject/gradkit/app/%28main%29/resume/page.jsx"],"sourcesContent":["import React from 'react'\r\n\r\n  const ResumePage = async()=>{\r\n    const resume =await getResume()\r\n\r\n\r\n  return (\r\n    <div>page</div>\r\n  )\r\n}\r\n\r\n\r\nexport default Resumepage\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAEE,MAAM,aAAa;IACjB,MAAM,SAAQ,MAAM;IAGtB,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAGe","debugId":null}}]
+}

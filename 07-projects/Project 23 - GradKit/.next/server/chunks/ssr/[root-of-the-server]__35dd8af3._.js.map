@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///R:/NextJS/Bigproject/gradkit/app/%28main%29/ai-cover-letter/page.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst AIcoverLetter = () => {\r\n  return (\r\n    <div>AIcoverLetter</div>\r\n  )\r\n}\r\n\r\nexport default AIcoverLetter"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,gBAAgB;IACpB,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
+}

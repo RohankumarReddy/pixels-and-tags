@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///R:/NextJS/Bigproject/gradkit/app/%28main%29/dashboard/layout.js"],"sourcesContent":["import { Suspense } from \"react\";\r\n\r\nexport default function Layout({ children }) {\r\n  return (\r\n    <div className=\"px-5\">\r\n      <div className=\"flex items-center justify-between mb-5\">\r\n        <h1 className=\"text-6xl font-bold gradient-title\">Industry Insights</h1>\r\n      </div>\r\n      <Suspense\r\n        fallback={<BarLoader className=\"mt-4\" width={\"100%\"} color=\"gray\" />}\r\n      >\r\n        {children}\r\n      </Suspense>\r\n    </div>\r\n  );\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS,OAAO,EAAE,QAAQ,EAAE;IACzC,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAI,WAAU;0BACb,cAAA,8OAAC;oBAAG,WAAU;8BAAoC;;;;;;;;;;;0BAEpD,8OAAC,iNAAQ;gBACP,wBAAU,8OAAC;oBAAU,WAAU;oBAAO,OAAO;oBAAQ,OAAM;;;;;;0BAE1D;;;;;;;;;;;;AAIT","debugId":null}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///R:/NextJS/Bigproject/gradkit/app/%28main%29/ai-cover-letter/%5Bid%5D/page.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst CoverLetter = async({params}) => {\r\n    const  id = await params.id\r\n  return (\r\n    <div>CoverLetter:{id}</div>\r\n  )\r\n}\r\n\r\nexport default CoverLetter"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,cAAc,OAAM,EAAC,MAAM,EAAC;IAC9B,MAAO,KAAK,MAAM,OAAO,EAAE;IAC7B,qBACE,8OAAC;;YAAI;YAAa;;;;;;;AAEtB;uCAEe","debugId":null}}]
+}

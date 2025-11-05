@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file:///R:/NextJS/Bigproject/gradkit/app/%28main%29/dashboard/page.jsx"],"sourcesContent":["import { getUserOnboardingStatus } from \"@/actions/user\";\r\nimport { redirect } from \"next/navigation\";\r\nimport React from \"react\";\r\n\r\nconst IndustryInsightsPage = async () => {\r\n  const { isOnboarded } = await getUserOnboardingStatus();\r\n\r\n  if (!isOnboarded) {\r\n    redirect(\"/onboarding\");\r\n  }\r\n\r\n  return (\r\n    <div className=\"p-6\">\r\n      <h1 className=\"text-2xl font-bold\">Industry Insights</h1>\r\n      <p>Welcome to the insights page!</p>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default IndustryInsightsPage;\r\n"],"names":[],"mappings":";;;;;AAAA;AACA;AAAA;AACA;;;;;;;;;AAEA,MAAM,uBAAuB;IAC3B,MAAM,EAAE,WAAW,EAAE,GAAG,MAAM,IAAA,0IAAuB;IAErD,IAAI,CAAC,aAAa;QAChB,IAAA,iMAAQ,EAAC;IACX;IAEA,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAqB;;;;;;0BACnC,8OAAC;0BAAE;;;;;;;;;;;;AAGT;uCAEe","debugId":null}}]
+}

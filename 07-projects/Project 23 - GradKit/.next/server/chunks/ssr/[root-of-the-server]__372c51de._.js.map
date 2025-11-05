@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///R:/NextJS/Big%20project%21/gradkit/components/ui/theme-provider.jsx"],"sourcesContent":["\"use client\"\r\n\r\nimport * as React from \"react\"\r\nimport { ThemeProvider as NextThemesProvider } from \"next-themes\"\r\n\r\nexport function ThemeProvider({\r\n  children,\r\n  ...props\r\n}){\r\n  return <NextThemesProvider {...props}>{children}</NextThemesProvider>\r\n}"],"names":[],"mappings":";;;;;AAEA;AACA;AAHA;;;;AAKO,SAAS,cAAc,EAC5B,QAAQ,EACR,GAAG,OACJ;IACC,qBAAO,8OAAC,iKAAkB;QAAE,GAAG,KAAK;kBAAG;;;;;;AACzC","debugId":null}}]
+}

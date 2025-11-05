@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file:///R:/NextJS/Bigproject/gradkit/lib/inngest/client.js"],"sourcesContent":["import { Inngest } from \"inngest\";\r\n\r\n// Create a client to send and receive events\r\nexport const inngest = new Inngest({ id: \"gradkit\", name:\"GradKit\" });"],"names":[],"mappings":";;;;AAAA;;AAGO,MAAM,UAAU,IAAI,6JAAO,CAAC;IAAE,IAAI;IAAW,MAAK;AAAU","debugId":null}}]
+}

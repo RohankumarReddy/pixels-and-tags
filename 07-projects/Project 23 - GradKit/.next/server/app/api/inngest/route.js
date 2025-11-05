@@ -1,0 +1,11 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/inngest/route.js")
+R.c("server/chunks/[externals]_node:async_hooks_fc37a2d4._.js")
+R.c("server/chunks/node_modules_next_dist_a64cbb6b._.js")
+R.c("server/chunks/node_modules_@opentelemetry_api_build_esm_7e8f41ca._.js")
+R.c("server/chunks/node_modules_inngest_7944edb4._.js")
+R.c("server/chunks/node_modules_zod_v3_57949b14._.js")
+R.c("server/chunks/node_modules_a70cadcb._.js")
+R.c("server/chunks/[root-of-the-server]__7bb857e4._.js")
+R.m("[project]/.next-internal/server/app/api/inngest/route/actions.js [app-rsc] (server actions loader, ecmascript)")
+R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/inngest/route.js [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/inngest/route.js [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports
