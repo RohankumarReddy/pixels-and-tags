@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///R:/NextJS/Bigproject/gradkit/app/%28auth%29/layout.js"],"sourcesContent":["import React from 'react'\r\n\r\nconst layput = ({children}) => {\r\n  return (\r\n    <div className='flex pt-40 justify-center'>{children}</div>\r\n  )\r\n}\r\n\r\nexport default layput"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,SAAS,CAAC,EAAC,QAAQ,EAAC;IACxB,qBACE,8OAAC;QAAI,WAAU;kBAA6B;;;;;;AAEhD;uCAEe","debugId":null}}]
+}

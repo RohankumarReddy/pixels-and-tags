@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file:///R:/NextJS/Bigproject/gradkit/lib/inngest/client.js"],"sourcesContent":["import { Inngest } from \"inngest\";\r\n\r\n// Create a client to send and receive events\r\nexport const inngest = new Inngest({ id: \"gradkit\", name:\"GradKit\" });"],"names":[],"mappings":";;;;AAAA;;AAGO,MAAM,UAAU,IAAI,6JAAO,CAAC;IAAE,IAAI;IAAW,MAAK;AAAU","debugId":null}},
+    {"offset": {"line": 75, "column": 0}, "map": {"version":3,"sources":["file:///R:/NextJS/Bigproject/gradkit/app/api/inngest/route.js"],"sourcesContent":["import { inngest } from \"@/lib/inngest/client\";\r\nimport { helloWorld } from \"@/lib/inngest/functions\";\r\nimport { serve } from \"inngest/next\";\r\n\r\n// Create an API that serves zero functions\r\nexport const { GET, POST, PUT } = serve({\r\n  client: inngest,\r\n  functions: [\r\nhelloWorld,\r\n\r\n],\r\n});"],"names":[],"mappings":";;;;;;;;AAAA;AACA;AACA;;;;AAGO,MAAM,EAAE,GAAG,EAAE,IAAI,EAAE,GAAG,EAAE,GAAG,IAAA,0IAAK,EAAC;IACtC,QAAQ,qIAAO;IACf,WAAW;QACb,2IAAU;KAET;AACD","debugId":null}}]
+}
