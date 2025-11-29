@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <b>My personal journey in Web Development — from fundamentals to full-stack mastery.</b>
+  <b>My personal journey in Web Development from fundamentals to full-stack mastery.</b>
 </p>
 
 ---
