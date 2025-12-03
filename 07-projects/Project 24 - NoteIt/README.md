@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://64.media.tumblr.com/aec073f16d09e2ad3a8c42a05f53c08f/4f1927cb0c07a80f-c1/s2048x3072_c1852,0,97963,100000/428b3c889842b1f9c739f2c604801b9b71c3fc57.gif" 
-       alt="Docs Manager Preview" 
+       alt="Docs Manager Preview"
        width="480">
 </p>
 
@@ -19,12 +19,25 @@
 
 ---
 
+## Application Preview
+
+<p align="center">
+  <img src="./NoteIt.png" alt="Docs Manager UI" width="820">
+</p>
+
+<p align="center">
+  <i>The interface screenshot appears large because it was captured directly from a laptop display.</i>
+</p>
+
+---
+
 ## Features
 
 - Create and store documents with titles and descriptions
 - Delete documents with a single click
 - Fully responsive layout
-
+- Smooth animations powered by Framer Motion
+- Clean and modern UI theme
 
 ---
 
