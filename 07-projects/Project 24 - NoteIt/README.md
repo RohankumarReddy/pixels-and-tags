@@ -4,7 +4,7 @@
        width="480">
 </p>
 
-<h1 align="center">Docs Manager – React Application</h1>
+<h1 align="center">NoteIt – Stay organized. Never <strong>forget</strong>.</h1>
 
 <p align="center">
   A modern and minimal document management web application built using React, Vite, Tailwind CSS, and Framer Motion.<br>
@@ -50,4 +50,5 @@
 | Tailwind CSS     | Utility-first styling                     |
 | Framer Motion    | Animations and transitions                |
 | React Router DOM | Application routing                       |
+
 
