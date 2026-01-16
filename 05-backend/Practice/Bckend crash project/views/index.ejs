@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-900 text-white">
+
+    <div class="main w-full min-h-screen p-6">
+
+        <!-- Form -->
+        <form class="form w-full max-w-md mx-auto mb-6 space-y-2" action="/create" method="POST">
+            <input 
+                type="text" 
+                name="title"
+                placeholder="Enter a task..." 
+                class="w-full px-4 py-2 rounded bg-zinc-700 text-white outline-none"
+                required
+            >
+
+            <textarea 
+                name="description"
+                placeholder="Write your task"
+                class="w-full px-4 py-2 rounded bg-zinc-700 text-white outline-none resize-none"
+                required
+            ></textarea>
+
+            <input 
+                type="submit" 
+                value="Add Task" 
+                class="w-full px-4 py-2 rounded bg-blue-600 text-white font-bold hover:bg-blue-700 cursor-pointer mt-2"
+            >
+        </form>
+
+        <!-- Task List -->
+        <div class="flex gap-3 flex-wrap justify-center">
+
+            <% if (files.length > 0) { %>
+                <% files.forEach(function(val) { %>
+                    <div class="task flex justify-center">
+                        <div class="w-72 px-4 py-2 bg-zinc-800 rounded text-white">
+                            <h1 class="font-bold text-lg"><%= val %></h1>
+                            <div class="flex flex-col">
+                                <a class="text-blue-500 hover:underline" href="/file/<%= val %>">Read more</a>
+                            <a class="text-blue-500 hover:underline  " href="/edit/<%= val %>">Edit</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                <% }) %>
+            <% } else { %>
+                <h3 class="text-center text-gray-400">No tasks yet</h3>
+            <% } %>
+
+        </div>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
